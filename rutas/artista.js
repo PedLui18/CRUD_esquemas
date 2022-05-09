@@ -38,5 +38,4 @@ rutas.delete('/delete/:id',function(req, res){
         .catch( (error) => {console.log(error)});
 })
 
-
 module.exports = rutas
